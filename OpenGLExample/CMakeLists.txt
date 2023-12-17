@@ -11,7 +11,11 @@ project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME} 
     Source/main.cpp
     Source/common.cpp Source/common.h
-    Source/shader.cpp Source/shader.h)
+    Source/shader.cpp Source/shader.h
+    Source/program.cpp Source/program.h
+    Source/context.cpp Source/context.h
+    Source/buffer.cpp Source/buffer.h
+    Source/vertex_layout.cpp Source/vertex_layout.h)
 
 include(Dependency.cmake)
 
